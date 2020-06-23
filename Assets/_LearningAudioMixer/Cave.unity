@@ -502,7 +502,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292085492}
-  m_LocalRotation: {x: 0.03157036, y: 0.00000003109717, z: -0.00000091652896, w: 0.9995015}
+  m_LocalRotation: {x: 0.031570364, y: 0.000000026797712, z: -0.00000091639316, w: 0.9995015}
   m_LocalPosition: {x: 64.36, y: 2.44, z: -20.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1238,7 +1238,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1115691273}
-  m_LocalRotation: {x: 0.03157036, y: 0.00000003109717, z: -0.00000091652896, w: 0.9995015}
+  m_LocalRotation: {x: 0.031570364, y: 0.000000026797712, z: -0.00000091639316, w: 0.9995015}
   m_LocalPosition: {x: 64.36, y: 2.44, z: -20.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -12864,8 +12864,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_light: {fileID: 715851276}
-  m_audioSettingsInField: {fileID: 24500006, guid: 7013c26809711584dba3c3f3917ff0ff,
-    type: 2}
-  m_audioSettingsInCave: {fileID: -8196322127052949231, guid: 7013c26809711584dba3c3f3917ff0ff,
-    type: 2}
+  m_audioSettingsInField: {fileID: 0}
+  m_audioSettingsInCave: {fileID: 0}
   m_transitionSeconds: 0.3

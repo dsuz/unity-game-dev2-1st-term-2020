@@ -34,7 +34,11 @@ public class CaveController : MonoBehaviour
         if (other.gameObject.tag == "Cave")
         {
             m_light.enabled = true;
-            m_audioSettingsInCave.TransitionTo(m_transitionSeconds);
+            
+            if (m_audioSettingsInCave)
+            {
+                m_audioSettingsInCave.TransitionTo(m_transitionSeconds);
+            }
         }
     }
 
@@ -43,7 +47,11 @@ public class CaveController : MonoBehaviour
         if (other.gameObject.tag == "Cave")
         {
             m_light.enabled = false;
-            m_audioSettingsInField.TransitionTo(m_transitionSeconds);
+
+            if (m_audioSettingsInField)
+            {
+                m_audioSettingsInField.TransitionTo(m_transitionSeconds);
+            }
         }
     }
 }
